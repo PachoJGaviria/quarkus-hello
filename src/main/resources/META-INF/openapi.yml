@@ -1,0 +1,5 @@
+openapi: 3.0.1
+info:
+  title: Generated API - Quarkus Hello
+  description: Quarkus Hello
+  version: "1.0.0"

@@ -1,6 +1,5 @@
 package co.com.pachojgaviria.infrastructure.api;
 
-import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 
 import javax.inject.Inject;

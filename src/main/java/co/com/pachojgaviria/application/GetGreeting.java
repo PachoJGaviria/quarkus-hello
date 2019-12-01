@@ -5,7 +5,6 @@ import java.util.concurrent.CompletionStage;
 
 import javax.enterprise.context.ApplicationScoped;
 import co.com.pachojgaviria.domain.*;
-import io.netty.util.concurrent.CompleteFuture;
 
 @ApplicationScoped
 public class GetGreeting {

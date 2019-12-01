@@ -25,4 +25,12 @@ public class GreetingResourceTest {
     .when().get("/hello/{name}", name)
     .then().statusCode(200).body(is(String.format("Hello %s", name)));
   }
+
+  @Test
+  public void testHelloAsyncEndpointWithParam() {
+    String name = UUID.randomUUID().toString();
+    given()
+    .when().get("/hello/async/{name}", name)
+    .then().statusCode(200).body(is(String.format("Hello %s", name)));
+  }
 }

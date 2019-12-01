@@ -1,4 +1,4 @@
-package co.com.pachojgaviria;
+package co.com.pachojgaviria.infrastructure.api;
 
 import co.com.pachojgaviria.infrastructure.api.GreetingResourceTest;
 import io.quarkus.test.junit.NativeImageTest;
